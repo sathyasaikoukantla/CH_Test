@@ -5,16 +5,18 @@ This project is build with Airflow, Python, Great expectation and dbt. This proj
 **Data Lineage Graph** - 
 Shows how the data was flowing from sources to presentation layer
 
-![image](https://github.com/user-attachments/assets/28716ac7-ccd0-4bc9-b405-a2f0f8529f30)
+![image](https://github.com/user-attachments/assets/bb7800bb-b646-403e-9628-92d8e1cf45ee)
+
 
 **ER Diagram** - 
 Explains how each of the data set was related to each other
 
-![image](https://github.com/user-attachments/assets/fa29b187-b4b1-4d23-8a20-bdd4e95762b2)
+![image](https://github.com/user-attachments/assets/500d5d6a-ae77-4cb8-8531-39c937e0f1c5)
+
 
 **Great Expectation Integration into dbt**
 
-![image](https://github.com/user-attachments/assets/87a036ed-d980-4b48-b684-435a9b75bfb1)
+![image](https://github.com/user-attachments/assets/df2d2d9d-dbf4-45d3-a00b-25289b401115)
 
 
 
