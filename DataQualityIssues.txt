@@ -7,3 +7,4 @@ I have added the tests for most of the not null and unique constrains in dbt, I 
 5. no_of_symptoms is not accurate in Symptoms Table
 6. convert encounter_id to lower case in Medications
 7. Ensured the column names are meaningful
+8. SSN was duplicated for 51 patients, i.e 102 patients are duplicated
