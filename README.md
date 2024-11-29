@@ -26,3 +26,19 @@ Explains how each of the data set was related to each other
 2. DataQualityIssues.txt - It has a few of the DataQuality issues which i found during my exploration
 3. ch_test_dag.py - It contains the code to orchestrate the dbt project
 
+
+Data Analytics Questions:
+
+1. How many distinct patients are in the dataset?
+4. What percentage of patients have all 4 symptom categories ≥ 30?
+![image](https://github.com/user-attachments/assets/1234b734-1f20-4803-ae4c-0d875ea08fca)
+
+
+2. Plot the distinct medications over time using a python plotting library. If you notice any duplicates, go back to your data cleaning section to fix.
+
+
+
+3. Create a pie chart indicating the percentage of patients across each racial category and gender.
+![image](https://github.com/user-attachments/assets/3662f349-9324-4ebe-8fee-8a8badadf07e)
+
+
