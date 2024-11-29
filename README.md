@@ -22,6 +22,10 @@ SSN Format Check test in dbt
 
 ![image](https://github.com/user-attachments/assets/8beaecd6-2a6f-42fd-8dd3-932aa8399284)
 
+Symptoms cleanup 
+
+![image](https://github.com/user-attachments/assets/2ac4755e-7f7f-46f0-88e3-e6fb5e704386)
+
 
 Data Analytics Questions:
 
