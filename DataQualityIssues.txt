@@ -6,3 +6,4 @@ I have added the tests for most of the not null and unique constrains in dbt, I 
 4. Gender was populated as 'NaN' in Patients and Symptoms Tables
 5. no_of_symptoms is not accurate in Symptoms Table
 6. convert encounter_id to lower case in Medications
+7. Ensured the column names are meaningful
