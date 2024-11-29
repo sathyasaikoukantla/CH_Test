@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: ch_test
+    database: postgres 
+    schema: dbt # raw_data
+    tables:
+      - name: raw_patients
+      - name: raw_patient_gender
+      - name: raw_conditions
+      - name: raw_encounters
+      - name: raw_medications
+      - name: raw_symptoms

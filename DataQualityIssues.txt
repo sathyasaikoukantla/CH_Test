@@ -1,0 +1,8 @@
+I have added the tests for most of the not null and unique constrains in dbt, I have also handled a few data quality issues in while transforming the data in the transform layer, These were a few DQ issues i found while i was exploring the data,
+
+1. Patient ID was in upper case in a few table's (Conditions, Encounters)
+2. Date of Birth was '9999-99-99' for 150 Patients 
+3. Symptoms Table had a Symptoms columns which wasn't ready to use, Transformed it to make sure it will be easy to consume
+4. Gender was populated as 'NaN' in Patients and Symptoms Tables
+5. no_of_symptoms is not accurate in Symptoms Table
+6. convert encounter_id to lower case in Medications

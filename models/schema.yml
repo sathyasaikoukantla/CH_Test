@@ -1,0 +1,74 @@
+version: 2
+
+# Data Quality checks for Patients Table
+models:
+  - name: clean_patients
+    columns:
+    - name: patient_id
+      tests:
+        - unique
+        - not_null
+    - name: ssn
+      tests:
+        - unique # Error
+        - not_null
+
+
+# Data Quality checks for Patients Gender Table
+  - name: clean_patient_gender
+    columns:
+    - name: patient_id
+      tests:
+        - dbt_expectations.expect_column_values_to_not_be_null:
+            row_condition: "patient_id is not null" 
+        - unique
+    - name: patient_gender
+      tests:
+        - not_null
+
+
+# Data Quality checks for Conditions Table
+  - name: clean_conditions
+    columns:
+    - name: patient_id
+      tests:
+        - not_null
+    - name: encounter_id
+      tests:
+        - not_null
+
+# Data Quality checks for Encounters Table
+  - name: clean_encounters
+    columns:
+    - name: encounter_id
+      tests:
+        - unique
+        - not_null
+    - name: patient_id
+      tests:
+        - not_null
+    - name: organization_id
+      tests:
+        - not_null
+    - name: provider_id
+      tests:
+        - not_null
+    - name: payer_id
+      tests:
+        - not_null
+
+
+# Data Quality checks for Medications Table
+  - name: clean_medications
+    columns:
+    - name: patient_id
+      tests:
+        - not_null
+
+
+# Data Quality checks for Symptoms Table
+  - name: clean_symptoms
+    columns:
+    - name: patient_id
+      tests:
+        - not_null
