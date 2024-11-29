@@ -23,14 +23,6 @@ SSN Format Check test in dbt
 ![image](https://github.com/user-attachments/assets/8beaecd6-2a6f-42fd-8dd3-932aa8399284)
 
 
-
-**Description of a few files added **
-
-1. profiles.yml - It has the credentials of RDS instance
-2. DataQualityIssues.txt - It has a few of the DataQuality issues which i found during my exploration
-3. ch_test_dag.py - It contains the code to orchestrate the dbt project
-
-
 Data Analytics Questions:
 
 1. How many distinct patients are in the dataset?
@@ -47,3 +39,12 @@ Data Analytics Questions:
 
 Dashboard in Power BI for Analytics
 ![image](https://github.com/user-attachments/assets/94db791c-cfb7-465b-893d-56b8871ed8eb)
+
+
+**Description of a few files added **
+
+1. profiles.yml - It has the credentials of RDS instance
+2. DataQualityIssues.txt - It has a few of the DataQuality issues which i found during my exploration
+3. ch_test_dag.py - It contains the code to orchestrate the dbt project
+
+   
