@@ -18,6 +18,10 @@ Explains how each of the data set was related to each other
 
 ![image](https://github.com/user-attachments/assets/df2d2d9d-dbf4-45d3-a00b-25289b401115)
 
+SSN Format Check test in dbt
+
+![image](https://github.com/user-attachments/assets/8beaecd6-2a6f-42fd-8dd3-932aa8399284)
+
 
 
 **Description of a few files added **
