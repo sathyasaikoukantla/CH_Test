@@ -45,6 +45,6 @@ Dashboard in Power BI for Analytics
 
 1. profiles.yml - It has the credentials of RDS instance
 2. DataQualityIssues.txt - It has a few of the DataQuality issues which i found during my exploration
-3. ch_test_dag.py - It contains the code to orchestrate the dbt project
+3. ch_test_dag.py - It contains the code to orchestrate the dbt project (Make Sure to update the PATH while running the code)
 
    
