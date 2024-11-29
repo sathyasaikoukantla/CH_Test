@@ -35,10 +35,11 @@ Data Analytics Questions:
 
 
 2. Plot the distinct medications over time using a python plotting library. If you notice any duplicates, go back to your data cleaning section to fix.
-
+![image](https://github.com/user-attachments/assets/10666d44-a2d2-48d4-b354-dceba10fc5d1)
 
 
 3. Create a pie chart indicating the percentage of patients across each racial category and gender.
 ![image](https://github.com/user-attachments/assets/3662f349-9324-4ebe-8fee-8a8badadf07e)
 
-
+Dashboard in Power BI for Analytics
+![image](https://github.com/user-attachments/assets/94db791c-cfb7-465b-893d-56b8871ed8eb)
